@@ -1,0 +1,553 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-12-25 18:45+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: tg_bot/presenters/address/address_presenter.py:14
+msgid ""
+"Enter a new password for your new address in the {network_name} "
+"blockchain.\n"
+"The password must be at least 8 characters long, contain a special "
+"character and a capital letter.\n"
+"\n"
+"This password will be requested to sign transactions and send funds from "
+"the wallet.\n"
+"Don't tell anyone about it and keep it a secret. Our service does not "
+"store users' passwords,\n"
+"and if you lose it, you will lose access to your wallet and all funds.\n"
+"\n"
+"Save your password on paper as well. Be safe every day."
+msgstr ""
+
+#: tg_bot/presenters/address/address_presenter.py:25
+msgid ""
+"Address: `{address}` successfully created.\n"
+"Please keep your password a secret and store it securely.\n"
+"You can send and receive tokens using this address."
+msgstr ""
+
+#: tg_bot/presenters/address/address_presenter.py:33
+msgid "Generating an additional address costs {price} {symbol}."
+msgstr ""
+
+#: tg_bot/presenters/address/address_presenter.py:39
+msgid "Enter the password for the wallet from which the funds will be debited."
+msgstr ""
+
+#: tg_bot/presenters/address/address_presenter.py:44
+msgid ""
+"You paid {amount} {symbol} for a new address.\n"
+"{transaction_hash}"
+msgstr ""
+
+#: tg_bot/presenters/address/address_presenter.py:50
+#: tg_bot/presenters/address/address_presenter.py:63
+#: tg_bot/presenters/token/token_presenter.py:37
+#: tg_bot/presenters/token/token_presenter.py:45
+#: tg_bot/presenters/token/token_presenter.py:51
+msgid "Transaction hash"
+msgstr ""
+
+#: tg_bot/presenters/address/address_presenter.py:56
+msgid ""
+"You sent {amount} {symbol} to {recipient}.\n"
+"{transaction_hash}"
+msgstr ""
+
+#: tg_bot/presenters/address/address_presenter.py:78
+msgid "{symbol} - {balance}"
+msgstr ""
+
+#: tg_bot/presenters/address/address_presenter.py:86
+msgid "Which asset will be sent?"
+msgstr ""
+
+#: tg_bot/presenters/address/address_presenter.py:90
+msgid ""
+"Enter the recipient's {network_name} chain wallet address or @username of"
+" the user in Telegram."
+msgstr ""
+
+#: tg_bot/presenters/address/address_presenter.py:99
+msgid ""
+"Balance: {balance} {symbol}\n"
+"Enter the amount to send."
+msgstr ""
+
+#: tg_bot/presenters/address/address_presenter.py:106
+msgid ""
+"Submit transaction:\n"
+"\n"
+"Value: {amount} {symbol}\n"
+"Recipient: {recipient}"
+msgstr ""
+
+#: tg_bot/presenters/address/address_presenter.py:114
+msgid "Enter the password for this wallet to confirm the operation."
+msgstr ""
+
+#: tg_bot/presenters/address/address_presenter.py:118
+msgid "The active address is not set, set it with the /addresses command."
+msgstr ""
+
+#: tg_bot/presenters/admin/admin_presenter.py:10
+msgid "Choose option:"
+msgstr ""
+
+#: tg_bot/presenters/admin/admin_presenter.py:14
+msgid "Total user count: {user_count}"
+msgstr ""
+
+#: tg_bot/presenters/admin/admin_presenter.py:17
+msgid "Send the text for the mailing list in English"
+msgstr ""
+
+#: tg_bot/presenters/admin/admin_presenter.py:21
+msgid "Send the text for the mailing list in Russian"
+msgstr ""
+
+#: tg_bot/presenters/admin/admin_presenter.py:25
+msgid ""
+"Send the URL buttons for the English message in the following format:\n"
+"buttons 1 - http://example1.com\n"
+"buttons 2 - http://example2.com\n"
+"\n"
+msgstr ""
+
+#: tg_bot/presenters/admin/admin_presenter.py:31
+msgid ""
+"Send the URL buttons for the Russian message in the following format:\n"
+"buttons 1 - http://example1.com\n"
+"buttons 2 - http://example2.com\n"
+"\n"
+msgstr ""
+
+#: tg_bot/presenters/admin/admin_presenter.py:37
+msgid "Examples of the messages presented above."
+msgstr ""
+
+#: tg_bot/presenters/admin/admin_presenter.py:41
+msgid ""
+"The message broadcasting is completed\n"
+"\n"
+"Messages have been sent to {successful_message_count} users"
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:42
+msgid "There are not enough funds to complete this transaction."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:43
+msgid ""
+"The password you provided is invalid. Please check the format and try "
+"again."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:44
+msgid "The address you are trying to create already exists."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:45
+msgid "The address you are trying to use does not exist."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:46
+msgid ""
+"You do not have enough funds for staking. Please ensure your balance "
+"meets the minimum requirement."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:47
+msgid "The requested address could not be found."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:48
+msgid "The value entered is not a valid number. Please provide a numeric value."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:49
+msgid "The value you entered is too small. Please provide a larger value."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:50
+msgid "This token is not supported. Please check the token and try again."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:51
+msgid ""
+"The specified token could not be found. Please verify the token symbol "
+"and try again."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:52
+msgid "The input length is invalid. Please check the input and try again."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:53
+msgid ""
+"The address is missing a required prefix. Please check the address and "
+"try again."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:54
+msgid ""
+"The address contains invalid characters. Please check and correct the "
+"address format."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:55
+msgid ""
+"The address has an invalid checksum. Please verify the address and try "
+"again."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:56
+msgid ""
+"The address you are trying to use is not active. Please check and try "
+"again."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:57
+msgid "Unable to connect to the blockchain node. Please try again later."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:58
+msgid "You don't have enough gas for this operation."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:59
+msgid "The requested block could not be found"
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:60
+msgid ""
+"The transfer amount exceeds your available balance. Please check your "
+"balance and try again."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:61
+msgid ""
+"The transaction contains invalid fields. Please check the transaction "
+"details and try again."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:62
+msgid ""
+"The transaction is still pending. Please wait for confirmation before "
+"proceeding."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:63
+msgid "The transaction failed due to an internal error. Please try again later."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:64
+msgid ""
+"A required fee has not been set for the transaction. Please provide the "
+"necessary fee and try again."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:65
+msgid ""
+"The exchange pair you selected is not supported. Please choose a "
+"different exchange."
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:66
+msgid "There is not enough liquidity in the pool"
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:67
+msgid "The contract does not comply with the ERC20 standard"
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:68
+msgid "The token has already been added"
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:73
+msgid ""
+"<b>Bot commands:</b>\n"
+"/assets - cryptocurrencies in wallet\n"
+"/stake - earn BRTR from staking\n"
+"/addresses - switch wallet\n"
+"/swap - token Exchange using Uniswap\n"
+"/settings - bot settings\n"
+"/referral - get your referral link\n"
+"\n"
+"<b>You can also use text commands:</b>\n"
+"\n"
+"💸 <b>Transfer tokens:</b>\n"
+"send [value] [token symbol] [User name or wallet address] [wallet "
+"password]\n"
+"\n"
+"Example 1:\n"
+"send 10 BRTR @polygonwalletbot Password\n"
+"Example 2:\n"
+"send 10 BRTR 0x17d3d1DA06688bC61592913921414bff09Bc570c Password\n"
+"\n"
+"💰 <b>Add BRTR to staking:</b>\n"
+"stake 100 Password\n"
+"\n"
+"🤑 Remove BRTR from staking:\n"
+"burn 100 Password"
+msgstr ""
+
+#: tg_bot/presenters/base/base_presenter.py:96
+msgid "⏳ Wait please..."
+msgstr ""
+
+#: tg_bot/presenters/swap/swap_presenter.py:13
+msgid ""
+"Barter RUB [{link}] is a token linked to the value of the ruble.\n"
+"\n"
+"Get RUB in the ratio of 1:1 to the ruble to buy tokenized assets,\n"
+"goods and services around the world, NFT, and other tokens.\n"
+"\n"
+"Getting a BRUB is simple:\n"
+"\n"
+"1. Click the Get BRUB button and select the bank to transfer via SBP,\n"
+"2. Enter the amount for tokenization in the bank's application and "
+"confirm the transfer,\n"
+"3. Send the transfer receipt and the wallet address for crediting tokens "
+"to @dprolix.\n"
+"\n"
+msgstr ""
+
+#: tg_bot/presenters/swap/swap_presenter.py:25
+#, python-format
+msgid ""
+"You can return from 100000 BRUB with a 7% commission. Send the wallet "
+"address with BRUB and the amount to @dprolix."
+msgstr ""
+
+#: tg_bot/presenters/swap/swap_presenter.py:29
+msgid ""
+"To make a quick token swap, enter a command like \"swap [token amount for"
+" sale] [token ticker for sale] [token ticker for buy]\":\n"
+"\n"
+"swap 10 USDT BRTR\n"
+"\n"
+"Liquidity provided by Uniswap"
+msgstr ""
+
+#: tg_bot/presenters/swap/swap_presenter.py:41
+msgid ""
+"Sell: {amount_to_sell} {sell_symbol}\n"
+"Buy: {amount_to_buy} {buy_symbol}\n"
+"Slippage: 1%"
+msgstr ""
+
+#: tg_bot/presenters/swap/swap_presenter.py:54
+msgid ""
+"Enter the password from the currently active wallet to perform the "
+"exchange operation"
+msgstr ""
+
+#: tg_bot/presenters/swap/swap_presenter.py:58
+msgid "The exchange operation has been cancelled"
+msgstr ""
+
+#: tg_bot/presenters/token/token_presenter.py:18
+msgid ""
+"Staked BRTR: {st_brtr_balance}\n"
+"BRTR balance: {brtr_balance}\n"
+"\n"
+"Stakers: {stakers_count}\n"
+"\n"
+"TVL: {tvl:,}\n"
+"Add to stake from 100 BRTR."
+msgstr ""
+
+#: tg_bot/presenters/token/token_presenter.py:33
+msgid ""
+"You paid {price} {symbol} to add token\n"
+"{hash_link}"
+msgstr ""
+
+#: tg_bot/presenters/token/token_presenter.py:43
+msgid ""
+"+{amount} BRTR added to staking\n"
+"{hash_link}"
+msgstr ""
+
+#: tg_bot/presenters/token/token_presenter.py:49
+msgid ""
+"-{amount} BRTR removed from staking.\n"
+"{hash_link}"
+msgstr ""
+
+#: tg_bot/presenters/token/token_presenter.py:55
+msgid "How much BRTR to add?"
+msgstr ""
+
+#: tg_bot/presenters/token/token_presenter.py:59
+msgid "How much BRTR to remove?"
+msgstr ""
+
+#: tg_bot/presenters/token/token_presenter.py:63
+msgid "Enter token’s smart contract address to add to the wallet"
+msgstr ""
+
+#: tg_bot/presenters/token/token_presenter.py:67
+msgid "Enter the password from this address to confirm the operation"
+msgstr ""
+
+#: tg_bot/presenters/token/token_presenter.py:71
+msgid "Do you want to add {symbol} ?"
+msgstr ""
+
+#: tg_bot/presenters/token/token_presenter.py:93
+msgid ""
+"The token {new_token_symbol} will be added for free just for you and "
+"recipients.\n"
+"If you want to list a token to the /assets section for everyone users, it"
+" costs {price_to_add_erc20_to_everyone} {pay_token_symbol}."
+msgstr ""
+
+#: tg_bot/presenters/token/token_presenter.py:103
+msgid ""
+"The token {new_token_symbol} will be added for "
+"{price_to_add_erc20_to_user} {pay_token_symbol} just for you and "
+"recipients.\n"
+"If you want to list a token to the /assets section for everyone users, it"
+" costs {price_to_add_erc20_to_everyone} {pay_token_symbol}."
+msgstr ""
+
+#: tg_bot/presenters/token/token_presenter.py:117
+msgid "You added new token"
+msgstr ""
+
+#: tg_bot/presenters/user/user_presenter.py:14
+msgid "Copy and paste the address you want to select and use:\n"
+msgstr ""
+
+#: tg_bot/presenters/user/user_presenter.py:18
+msgid "You don't have any addresses."
+msgstr ""
+
+#: tg_bot/presenters/user/user_presenter.py:24
+msgid "Wallet has been changed."
+msgstr ""
+
+#: tg_bot/presenters/user/user_presenter.py:28
+msgid ""
+"To top up your balance, transfer money to this address:\n"
+"`{address}`"
+msgstr ""
+
+#: tg_bot/presenters/user/user_presenter.py:41
+msgid ""
+"Invited - {invited}\n"
+"Earned - {earned} {symbol}\n"
+"\n"
+"Referral link, copy and share:\n"
+"`{link}`"
+msgstr ""
+
+#: tg_bot/presenters/user/user_presenter.py:55
+msgid "Choose language."
+msgstr ""
+
+#: tg_bot/presenters/user/user_presenter.py:59
+msgid "The language has been changed to {language}."
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:32
+msgid "Deposit"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:33
+msgid "Send"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:34
+msgid "Confirm"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:35
+msgid "Cancel"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:37
+msgid "Back"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:38
+msgid "Add"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:39
+msgid "Remove"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:40
+msgid "Pay"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:41
+msgid "ENGLISH"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:42
+msgid "RUSSIAN"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:43
+msgid "Get a BRUB"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:44
+msgid "Return BRUB"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:45
+msgid "Generate New Address"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:46
+msgid "Number of users"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:47
+msgid "Message broadcasting"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:48
+msgid "Add button"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:49
+msgid "Send message"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:50
+msgid "Add token"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:51
+msgid "Only for me"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:52
+msgid "Pay for listing"
+msgstr ""
+
+#: tg_bot/templates/buttons/buttons_presenter.py:58
+msgid "Unknown button"
+msgstr ""
+
