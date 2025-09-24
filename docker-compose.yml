@@ -1,0 +1,38 @@
+version: '3.9'
+
+services:
+
+  db:
+    image: postgres:14-alpine
+    container_name: barterwallet-postgres
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "1927"
+    volumes:
+      - db:/var/lib/postgresql/data
+    expose:
+      - "5432"
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+
+  barterwallet-bot:
+    container_name: barterwallet-bot-container
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+    command: >
+      sh -c "
+        python3 __main__.py
+      "
+    env_file:
+      - ./.env
+    volumes:
+      - .:/app
+    working_dir: /app
+    restart: unless-stopped
+
+volumes:
+  db:
